@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Neuron Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login">
+
+<h1>🧠 Neuron</h1>
+<p>Chat together, Dream together.</p>
+
+<input id="username" placeholder="Username">
+<p class="hint">Username can only be 3-15 letters.</p>
+
+<input id="password" type="password" placeholder="Password">
+<p class="hint">Make your password complicated but easy to remember!</p>
+
+<button onclick="login()">Login</button>
+
+<script>
+function login() {
+  let username = document.getElementById("username").value;
+  localStorage.setItem("username", username);
+  window.location.href = "chat.html";
+}
+</script>
+
+</body>
+</html>
