@@ -1,0 +1,9 @@
+neuron-chat/
+│── server.js
+│── package.json
+│── public/
+│    ├── index.html
+│    ├── chat.html
+│    ├── style.css
+│    ├── script.js
+│    └── logo.png
